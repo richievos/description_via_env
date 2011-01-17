@@ -1,0 +1,3 @@
+This is a hudson plugin for setting the description of a build via an environment variable.
+
+Currently only supports _build_ being the environment variable.
