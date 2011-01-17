@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.jvnet.hudson.plugins</groupId>
+    <artifactId>plugin</artifactId>
+    <version>1.315</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+  
+  <artifactId>desciption_via_env</artifactId>
+  <packaging>hpi</packaging>
+  <version>0.1.0</version>
+  <name>Set job description via env</name>
+  <description>This plugin sets the build's description to be a particular environment variable.</description>
+  <url>http://wiki.hudson-ci.org/display/HUDSON/Job+Exporter+Plugin</url>
+  <inceptionYear>2010</inceptionYear>
+
+  <properties>
+    <!-- which version of Hudson is this plugin built against? -->
+    <hudson.version>${project.parent.version}</hudson.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.net.id>m31</java.net.id>
+  </properties>
+
+  <developers>
+    <developer>
+      <id>richieovs</id>
+      <name>Richie Vos</name>
+      <email>richie@groupon.com</email>
+      <timezone>-5</timezone>
+    </developer>
+  </developers>
+  
+  <licenses>
+    <license>
+      <name>MIT license</name>
+      <comments>All source code is under the MIT license.</comments>
+    </license>
+  </licenses>
+  
+  <dependencies>
+  </dependencies>
+</project>
